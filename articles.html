@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a324c">
+  <meta name="msapplication-navbutton-color" content="#1a324c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="I write the type of articles I would want to read when trying to understand a new concept or develop a
+    skill.">
+  <link rel="stylesheet" href="static/css/main.css" />
+  <link rel="stylesheet" href="static/css/page.css" />
+  <link rel="stylesheet" href="static/css/articles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3FM96129M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y3FM96129M');
+  </script>
+
+  <title>Rohit Telgote: Articles</title>
+</head>
+
+<body>
+  <nav class="visible">
+    <div class="container">
+      <a href="/" class="nav-logo" title="Back to Homepage">
+        Rohit Telgote
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="link">Home</a>
+        <a href="about.html" class="link">about</a>
+        <a href="projects.html" class="link">projects</a>
+        <a href="articles.html" class="link active">articles</a>
+        <div class="social-media">
+          <a href="https://www.github.com/rohittelgote23" title="Github">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rohittelgote23" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.twitter.com/rohit_telgote" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://medium.com/@rohittelgote23" title="Medium">
+            <i class="fab fa-medium"></i>
+          </a>
+          <a href="https://www.instagram.com/rohit_telgote23" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://rohittelgote.hashnode.dev/" title="Hashnode">
+            <iconify-icon icon="simple-icons:hashnode"></iconify-icon>
+          </a>
+        </div>
+      </div>
+      <div class="nav-controls">
+        <input type="checkbox" class="checkbox" id="theme-display">
+        <label for="theme-display" class="checkbox-label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <span class="ball"></span>
+        </label>
+        <button id="menu-display" title="Show Menu" class="hamburger"></button>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="container">
+      <h1 class="section-title">Articles <span class="title-icon">&#128466;</span></h1>
+      <p class="section-subtitle">
+        I write articles on multiple platforms, this is a list of everything I've written online.
+      </p>
+    </section>
+    <section id="articles" class="container">
+      <input type="radio" id="all" name="tag" value="all" checked>
+      </input>
+      <input type="radio" id="technical" name="tag" value="technical">
+      </input>
+      <input type="radio" id="non-tech" name="tag" value="non-tech">
+      </input>
+      <aside class="post-tags">
+        <div class="post-tag">
+          <label for="all" data-post="all">
+            All 
+          </label>
+        </div>
+        <div class="post-tag">
+          <label for="technical" data-post="technical">
+            Technical 
+          </label>
+        </div>
+        <div class="post-tag">
+          <label for="non-tech" data-post="non-tech">
+            Non-Tech 
+          </label>
+        </div>
+      </aside>
+      <div class="main-content">
+        <div class="article" data-post="technical">
+          <h2 class="article-title">
+            <a href="https://rohittelgote.hashnode.dev/quantum-computing" target="_blank" rel="noopener">
+              Quantum Computing: Unleashing the Power of a New Era
+            </a>
+          </h2>
+          <div class="article-description">
+            <p>
+              In this blog post, we will explore the potential impact of quantum computing and 
+              how it can reshape various industries and scientific fields.
+            </p>
+            <p class="details">3 min read</p>
+          </div>
+        </div>
+        <div class="article" data-post="technical">
+          <h2 class="article-title">
+            <a href="https://rohittelgote.hashnode.dev/your-pin-code" target="_blank"
+              rel="noopener">
+              How Large Should Your PIN Code Be? Finding the Right Balance
+            </a>
+          </h2>
+          <div class="article-description">
+            <p>
+              In this blog post, we will explore the factors to consider when determining the 
+              length of your PIN code and find the right balance between security and usability.
+            </p>
+            <p class="details"> 4 min read</p>
+          </div>
+        </div>
+        <div class="article" data-post="non-tech">
+          <h2 class="article-title">
+            <a href="https://medium.com/@rohittelgote23/understanding-your-place-in-the-universe-exploring-your-cosmic-address-df4b5fd9f668" target="_blank"
+              rel="noopener">
+              Understanding Your Place in the Universe: Exploring Your Cosmic Address
+            </a>
+          </h2>
+          <div class="article-description">
+            <p>
+              We think about our address in terms of our street and city, but let’s take a journey to discover our full cosmic address. 
+              Get ready to be amazed as we explore the different levels of our place in the universe.
+            </p>
+            <p class="details"> 4 min read</p>
+          </div>
+        </div>
+        <div class="article" data-post="technical">
+          <h2 class="article-title">
+            <a href="https://rohittelgote.hashnode.dev/stuxnet" target="_blank"
+              rel="noopener">
+              Stuxnet: Unleashing the World's First Digital Weapon
+            </a>
+          </h2>
+          <div class="article-description">
+            <p>
+              In this blog post, we will explore the story behind Stuxnet, 
+              its unprecedented capabilities, and the profound implications it had on the world of cybersecurity.
+            </p>
+            <p class="details"> 3 min read</p>
+          </div>
+        </div>
+      </div> 
+    </section>
+  </main>
+  <div class="page-nav container">
+    <a href="projects.html">&#8592; Projects</a>
+  </div>
+  <div class="wave-border top">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        style="stroke: none; fill: var(--shade-100)"></path>
+      <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
+        style="stroke: var(--neon-color);fill: none;"></path>
+    </svg>
+  </div>
+  <footer>
+    <link href="https://fonts.googleapis.com/css?family=Cookie&amp;display=swap" rel="stylesheet">
+    <div class="container">
+      <div class="social-media">
+        <a href="https://www.github.com/rohittelgote23" title="Github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rohittelgote23" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.twitter.com/rohit_telgote" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://medium.com/@rohittelgote23" title="Medium">
+          <i class="fab fa-medium"></i>
+        </a>
+        <a href="https://www.instagram.com/rohit_telgote23" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://rohittelgote.hashnode.dev/" title="Hashnode">
+          <iconify-icon icon="simple-icons:hashnode"></iconify-icon>
+        </a>
+      </div>
+      <div class="copyright">
+        &copy; designed & built by <a href="https://www.linkedin.com/in/rohittelgote23">Rohit Telgote</a> <span
+          class="heart">&hearts;</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="./static/js/index.js"></script>
+
+</html>
