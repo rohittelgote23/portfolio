@@ -108,4 +108,7 @@ section {
   .project {
     min-width: 75vw;
   }
+  .project-image img{
+    filter: brightness(100%);
+  }
 }
