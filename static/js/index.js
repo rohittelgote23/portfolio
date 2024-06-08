@@ -12,6 +12,12 @@ const getTheme = () => {
   root.className = theme;
   const shade = getComputedStyle(document.documentElement).getPropertyValue('--shade-100');
   document.querySelector('meta[name="theme-color"]').setAttribute('content', shade);
+  /* to correct checker */
+  if (theme === 'light') {
+    themeDisplay.checked = true;
+  } else {
+    themeDisplay.checked = false;
+  }
 }
 
 const setTheme = (className) => {
